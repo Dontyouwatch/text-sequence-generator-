@@ -55,7 +55,7 @@ bot.onText(/\/get (\d+)/, (msg, match) => {
 // Generate and send the next sequence number
 function generateNextSequence(chatId, userId) {
   userStates[userId].currentSequence++;
-  bot.sendMessage(chatId, 'get ' + userStates[userId].currentSequence);
+  bot.sendMessage(chatId, '/get ' + userStates[userId].currentSequence);
 }
 
 // Generate and send the sequence
