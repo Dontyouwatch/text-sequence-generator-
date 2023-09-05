@@ -1,21 +1,21 @@
 {
-  "name": "text-sequence-generator",       // Replace with your bot's name
-  "version": "1.0.0",                   // You can specify your own version
-  "A Telegram bot that provides sequences.": "A Telegram bot that responds to commands.",
-  "main": "index.js",                   // Your main script file
+  "name": "text-sequence-generator",
+  "version": "1.0.0",
+  "description": "A Telegram bot that provides sequences.",
+  "main": "index.js",
   "dependencies": {
-    "node-telegram-bot-api": "^0.52.0"  // The Telegram bot library
+    "node-telegram-bot-api": "^0.52.0"
   },
   "scripts": {
-    "start": "node index.js"            // Start script for your bot
+    "start": "node index.js"
   },
   "engines": {
-    "node": "14.x"                      // Node.js version requirement (adjust as needed)
+    "node": "14.x"
   },
-  "author": "ricks",                // Your name or username
-  "license": "GPL-3.0",                     // License type
+  "author": "ricks",
+  "license": "GPL-3.0",
   "repository": {
     "type": "git",
-    "https://github.com/Dontyouwatch/text-sequence-generator-": "https://github.com/your-username/your-bot-repo"  // Your GitHub repository URL
+    "url": "https://github.com/your-username/your-bot-repo"
   }
 }
